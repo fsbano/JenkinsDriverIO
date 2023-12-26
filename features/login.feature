@@ -7,4 +7,4 @@ Feature: Automate Jenkins Setup
 
     Examples:
       | username | password                         | message                        |
-      | admin    | b5e2016a9f3c4c78838a40ed6fd3f665 | You logged into a secure area! |
+      | admin    | 91c3b958b0b34a0f880921cb26436e6d | You logged into a secure area! |

@@ -13,7 +13,7 @@ Given(/^I am on the (\w+) page$/, async (page) => {
 });
 
 When(/^I login with (\w+) and (.+)$/, async (username, password) => {
-    await LoginPage.login()
+    await LoginPage.login(username, password)
     await SecurePage.CustomizeJenkins()
 });
 

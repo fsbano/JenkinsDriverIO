@@ -65,10 +65,10 @@ export const config: Options.Testrunner = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [{
-        browserName: 'safari',
-        //'goog:chromeOptions': {
-        //    args: ['headless', 'disable-gpu']
-        //}
+        browserName: 'chrome',
+        'goog:chromeOptions': {
+            args:  [ "--lang=en" ]
+        },
     }],
 
     //
